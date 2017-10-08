@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Contact Local DB</string>
+    <string name="tidakadadata">Tidak Ditemukan Data</string>
+    <string name="nama">Nama</string>
+    <string name="nomorhp">Nomor HP</string>
+    <string name="nomorrumah">Nomor Rumah</string>
+    <string name="nomorkantor">Nomor Kantor</string>
+    <string name="email">Email</string>
+    <string name="website">Website</string>
+    <string name="nomorKosong">Salah Satu Nomor Harus Diisi</string>
+    <string name="namaKosong">Nama Harus Diisi</string>
+    <string name="isiKontak">Mohon isi kontak dari </string>
+    <string name="konfirmasi">Konfirmasi</string>
+    <string name="andaInginMenghapus">Anda Yakin Ingin Menghapus </string>
+    <string name="dariDaftar"> dari daftar Kontak</string>
+    <string name="informasi">Informasi</string>
+    <string name="berhasilMenghapus">Berhasil Menghapus Data </string>
+    <string name="andaYakinMengubah">Anda Yakin Mengubah Data </string>
+    <string name="gagalMengambilGambar">Gagal mengambil gambar</string>
+
+</resources>

@@ -1,0 +1,234 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeDetail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:id="@+id/DetailLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/relativePict"
+        android:layout_width="match_parent"
+        android:layout_weight="50"
+        android:layout_height="0dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:src="@mipmap/ic_contact_picture"
+            android:scaleType="fitXY"
+            android:id="@+id/pictMain"/>
+        <!--android:src="@mipmap/ic_launcher"-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/textViewColor"
+            android:layout_gravity="bottom"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/textnama"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:text="textnama"
+                android:paddingLeft="20dp"
+                android:textSize="18sp"
+                />
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/HPLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:weightSum="8"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="left"
+            android:src="@mipmap/ic_call_black"
+            android:id="@+id/hpIcon"/>
+
+        <TextView
+            android:id="@+id/textnomorHP"
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:text="textnomorHP"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/KantorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:weightSum="8"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="left"
+            android:src="@mipmap/ic_work_black"
+            android:id="@+id/officeIcon"/>
+
+        <TextView
+            android:id="@+id/textnomorKantor"
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:text="textnomorKantor"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/RumahLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:weightSum="8"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="left"
+            android:src="@mipmap/ic_home_black"
+            android:id="@+id/homeIcon"/>
+
+        <TextView
+            android:id="@+id/textnomorRumah"
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:text="textnomorRumah" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/EmailLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:weightSum="8"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="left"
+            android:src="@mipmap/ic_email_black"
+            android:id="@+id/emailIcon"/>
+
+        <TextView
+            android:id="@+id/textemail"
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:text="textemail"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/WebLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:weightSum="8"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="left"
+            android:src="@mipmap/ic_web_black"
+            android:id="@+id/webIcon"/>
+
+        <TextView
+            android:id="@+id/textwebsite"
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:text="textwebsite"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:src="@android:drawable/ic_menu_edit"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentEnd="true" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_delete"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_above="@+id/edit"
+            android:layout_alignLeft="@+id/edit"
+            android:layout_alignStart="@+id/edit" />
+    </RelativeLayout>
+
+</FrameLayout>
